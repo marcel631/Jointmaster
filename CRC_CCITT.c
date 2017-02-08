@@ -1,8 +1,22 @@
-/*	CRC generator function function modified from
-	 http://www.modicon.com/techpubs/toc7.html
-	Be certain that the memory reserved for pMsg is two 
-	bytes longer than MsgLength. 
-*/
+/**	
+ * |----------------------------------------------------------------------
+ * | Copyright (C) SMI Holding BV, www.smidev.nl, 2017
+ * | 
+ * | This program is free software: you can redistribute it and/or modify
+ * | it under the terms of the GNU General Public License as published by
+ * | the Free Software Foundation, either version 3 of the License, or
+ * | any later version.
+ * |  
+ * | This program is distributed in the hope that it will be useful,
+ * | but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * | GNU General Public License for more details.
+ * | 
+ * | You should have received a copy of the GNU General Public License
+ * | along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * |----------------------------------------------------------------------
+ */
+
 #include "CRC_CCITT.h"
 #include "globals.h"
 #include "defines.h"
