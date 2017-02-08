@@ -15,13 +15,38 @@ If you prefer a Windows based USB solution for creating your Mortise-Tenon joint
 We made use (and modified, thank you Tilen !) the standard peripheral libraries from Tilen Majerle that can be found here in case you need other (https://stm32f4-discovery.net/2014/05/all-stm32f429-libraries-at-one-place/)
 
 ## Requirements
-- You need a programming and debugging environment.
-- You need the STM32 standard peripheral library that can be found here
+- You need a programming and debugging environment. For instance the one we use for [follow these steps](http://bartteunissen.com/blog/programming-and-debugging-a-stm32f0-discovery-with-eclipse/)
+- You need the STM32 standard peripheral library that can be found [here](http://www.st.com/en/embedded-software/stsw-stm32065.html) Do not migrate to the stm32cube.
 
+## Installation
+We use file defines.h to decide how to compile. 
+You will have to tailor the standard application library to fit the STM32F407VG discovery.
+
+##Contributing
+
+Pull requests are most welcome.
+
+Contributions on these sections are particularly welcome:
+- Beta spline processing capability. The idea is to work with beta splines to command the step motor's (instead of small line segments). When processing so-called G-code the step motors start and stop over very short distances. We would like to have a pre-processor on the Toothmaster side that decides whether a spline offers advantage over a lot of small line segments.
+    
+
+##PCB communication
+
+    Jointmaster/ Toothmaster communicates using serial communication over Bluetooth.
+    The PCB can be ordered [here](http://jointmaster.eu/product/jointmaster-usb-solution-low-budget-kit/) If you order you also get a variety of pre-compiled programs for the STM-32.    
+    The PCB flashed with software has its own commands: [here](https://github.com/patricksevat/Toothmaster/blob/master/PCB-communication.md)
+
+##Contact
+
+Feel free to open an issue if anything is unclear.
+
+You can also contact us via marcel63 <at> hotmail <dot> com regarding specific questions abou the code in this repository or fill in this contact form for any questions regarding the required hardware or the PCB software.
+
+For more general information see http://jointmaster.eu/. This website also contains useful blogs and videos on using Jointmaster/ Toothmaster. 
 
 ##License
 
-All my softwares are published under GNU GPL v3 license. This means that you are allow to modify, share and use my source and other stuff in personal or commercial use. If you modify source code, it has to stay under GNU GPL v3 license too. I reserve a right to shut down this website at any time.
+All software is published under GNU GPL v3 license. This means that you are allow to modify, share and use my source and other stuff in personal or commercial use. If you modify source code, it has to stay under GNU GPL v3 license too. I reserve a right to shut down this website at any time.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
