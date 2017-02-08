@@ -1,15 +1,6 @@
-/**
- *  Defines for your entire project at one place
- * 
- *	@author 	Tilen Majerle
- *	@email		tilen@majerle.eu
- *	@website	http://stm32f4-discovery.com
- *	@version 	v1.0
- *	@ide		Keil uVision 5
- *	@license	GNU GPL v3
- *	
+/**	
  * |----------------------------------------------------------------------
- * | Copyright (C) Tilen Majerle, 2014
+ * | Copyright (C) SMI Holding BV, www.smidev.nl, 2017
  * | 
  * | This program is free software: you can redistribute it and/or modify
  * | it under the terms of the GNU General Public License as published by
@@ -25,6 +16,7 @@
  * | along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * |----------------------------------------------------------------------
  */
+
 #ifndef ram_buf_H
 #define ram_buf_H
 
