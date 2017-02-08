@@ -11,7 +11,7 @@ If you prefer a Windows based USB solution for creating your Mortise-Tenon joint
 
 If you prefer the most simple and reliable finger jointing solution for both Windows and Android without STM32 board, consider [Jointmaster audio] (http://jointmaster.eu/jointmaster-audio/)
 
-**This Github repository is intended for developers wishing to improve or modify Toothmaster/ use Toothmaster with STM32 in a different application. Of course you can contact us if you need help. Please note that help is not for free because we are extremenly busy.**
+**This Github repository is intended for developers wishing to improve or modify Toothmaster/ use Toothmaster with STM32 in a different application. Of course you can contact us if you need help.**
 **If you're looking to install the app, please visit the [Google Play store](https://play.google.com/store/search?q=Toothmaster&c=apps&hl=en)**
 
 We made use (and modified, thank you Tilen !) the standard peripheral libraries from Tilen Majerle that can be found here in case you need other (https://stm32f4-discovery.net/2014/05/all-stm32f429-libraries-at-one-place/)
@@ -29,8 +29,8 @@ We do not guarantee anything if you use this software because the STM32 is not f
 
 ## Installation
 We use file defines.h to decide how to compile. 
-You will have to tailor the standard application library to fit the STM32F407VG discovery.
-You can hire us to set up a working environment if necessary.
+You will have to tailor the standard application library to fit the STM32F407VG discovery. The license for the SMT32 standard library is personal. We cannot provide it here.
+You can hire us to set up a working environment if necessary. 
 
 ## Contributing
 
