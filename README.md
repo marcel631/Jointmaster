@@ -16,10 +16,10 @@ If you prefer the most simple and reliable finger jointing solution for both Win
 
 We made use (and modified, thank you Tilen !) the standard peripheral libraries from Tilen Majerle that can be found here in case you need other (https://stm32f4-discovery.net/2014/05/all-stm32f429-libraries-at-one-place/)
 
-## reliability
+## Reliability + Availability
 The source code did go through an enourmous testing phase. We had it running for one week using [Jointmaster Pro](http://jointmaster.eu/jointmaster-pro/). For this reason the STM32 side is extremely stable.
 
-## safety
+## Safety
 The step motors stop if a stopswitch is hit or if too much encoder steps are missed. 
 We do not guarantee anything if you use this software because the STM32 is not fit for safety critical applications. For example there is always a non-quantifiable chance that the step motor continues running when a stopswitch is hit. 
 
