@@ -32,9 +32,9 @@ Contributions on these sections are particularly welcome:
 
 ##PCB communication
 
-    Jointmaster/ Toothmaster communicates using serial communication over Bluetooth.
-    The PCB can be ordered [here](http://jointmaster.eu/product/jointmaster-usb-solution-low-budget-kit/) If you order you also get a variety of pre-compiled programs for the STM-32.    
-    The PCB flashed with software has its own commands: [here](https://github.com/patricksevat/Toothmaster/blob/master/PCB-communication.md)
+Jointmaster/ Toothmaster communicates using serial communication over Bluetooth.
+The PCB can be ordered [here](http://jointmaster.eu/product/jointmaster-usb-solution-low-budget-kit/) If you order you also get a variety of pre-compiled programs for the STM-32.    
+The PCB flashed with software has its own commands: [here](https://github.com/patricksevat/Toothmaster/blob/master/PCB-communication.md)
 
 ##Contact
 
