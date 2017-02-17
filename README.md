@@ -26,6 +26,9 @@ We do not guarantee anything if you use this software because the STM32 is not f
 ## Requirements
 - You need a programming and debugging environment. For instance the one we use for [follow these steps](http://bartteunissen.com/blog/programming-and-debugging-a-stm32f0-discovery-with-eclipse/)
 - You need the STM32 standard peripheral library that can be found [here](http://www.st.com/en/embedded-software/stsw-stm32065.html) Do not migrate to the stm32cube.
+- You need the [Toothmaster apk for your phone](https://play.google.com/store/apps/details?id=eu.jointmaster.toothmaster)
+- You need a STM32F407 discovery board
+- You need a [Jointmaster Pro/ Toothmaster PCB](http://jointmaster.eu/product/jointmaster-usb-solution-low-budget-kit/)
 
 ## Installation
 We use file defines.h to decide how to compile. 
